@@ -1,0 +1,116 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    * {
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .botao-voltar {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        cursor: pointer;
+    }
+    
+    .logo {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .input {
+        width: 360px;
+        height: 48px;
+        border: none;
+        border-radius: 7px;
+        background-color: #DEE2E6;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    .button {
+        background-color: #FB5607;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+    
+    .opcoes {
+        text-align: center;
+        color: #FB5607;
+        font-size: 15px;
+        opacity: 0.7;
+    }
+    
+    .opcoes a {
+        text-decoration: none;
+        color: #FB5607;
+    }
+    
+    .opcoes p {
+        font-weight: 700;
+    }
+    
+    .senha {
+        font-size: 13px;
+    }
+    
+    .nav-bar {
+        background-color: #FB5607;
+        color: #FFFFFF;
+        text-align: center;
+        display: auto;
+        font-size: 20px;
+    }
+    
+    .mapa {
+        position: relative;
+    }
+    
+    .img-arrow {
+        position: absolute;
+        bottom: 180px;
+        left: 70%;
+    }
+    
+    .img-arrow2 {
+        position: absolute;
+        bottom: 150px;
+        left: 55%;
+    }
+    
+    .img-chegada {
+        position: absolute;
+        top: 130px;
+        left: 83%
+    }
+    
+    .img-chegada2 {
+        position: absolute;
+        right: 15%;
+        top: 40%;
+    }
+    
+    .viajantes {
+        margin-top: 6px;
+    }
+    
+    .viajante {
+        color: #ffffff;
+        border-radius: 7px;
+        padding: 15px;
+        width: 350px;
+        text-align: center;
+    }
+    
+    .viajante-vermelho {
+        background-color: #BA181B;
+    }
+    
+    .viajante-verde {
+        background-color: #90BE6D;
+    }
+    
+    .elipse-1 {
+        font-weight: 600;
+    }
+    
+    .elipse-2 {
+        font-weight: 600;
+    }

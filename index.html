@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body onload="banco_de_dados()">
+    <div class="d-flex flex-column justify-content-center align-items-center vw-100 vh-100">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="atelie-logo.png" alt="logo" width=75 height=75>
+            <span class="logo">Traz Pra Mim</span>
+        </div>
+        <div class="d-flex flex-column mt-5">
+            <input class="input mb-2 px-3" type="text" placeholder="E-mail" id="email" />
+            <input class="input mb-2 px-3" type="password" placeholder="Senha" id="senha" />
+            <button class="input mb-2 button" onclick="login()"> Entrar </button>
+        </div>
+        <div class="opcoes my-5">
+            <a href="signup.html">
+                <p>Cadastre-se</p>
+            </a>
+            <p class="senha mt-4">Esqueceu sua senha?</p>
+        </div>
+        <p>
+    </div>
+    <script src="scritp.js"></script>
+
+</body>
+
+</html>
